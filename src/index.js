@@ -30,7 +30,7 @@ const App = () => {
     event.preventDefault();
     
     
-  
+  //Set selected coin to display
       let result = coinData.filter(coin => {return coin.name === coinName})
 
      setCoinSelected(result);
@@ -48,6 +48,7 @@ const App = () => {
       
       
     
+
       
   return (
     <div className="App">
